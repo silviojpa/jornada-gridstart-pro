@@ -15,7 +15,7 @@
 [Liste as tecnologias, conceitos ou ferramentas específicas]--
 ## Visão de 1 Ano
 **Onde você quer estar trabalhando em 2027?**
-- [Descreva a empresa, o tipo de projeto, a localização (remoto/presencial)]
+- [Descreva a empresa, o tipo de projeto, a localização (remoto/presencial)].
 **Qual cargo você quer ter?**
 [Descreva a posição, responsabilidades e impacto que quer ter]--
 ## Compromisso Comigo Mesmo

@@ -14,9 +14,10 @@
 **O que você quer ter dominado?**
 [Liste as tecnologias, conceitos ou ferramentas específicas]--
 ## Visão de 1 Ano
-1- :rocket: **Onde você quer estar trabalhando em 2027?**
-- [Descreva a empresa, o tipo de projeto, a localização (remoto/presencial)]
-2- **Qual cargo você quer ter?**
+- :rocket: **Onde você quer estar trabalhando em 2027?**
+  - [Descreva a empresa, o tipo de projeto, a localização (remoto/presencial)]
+- **Qual cargo você quer ter?**
+  - [Nome do Cargo]   
 [Descreva a posição, responsabilidades e impacto que quer ter]--
 ## Compromisso Comigo Mesmo
 Eu, [Seu Nome], me comprometo a:- Estudar e praticar todos os dias- Não desistir quando ficar difícil- Compartilhar meu progresso e aprender com os colegas- Aplicar o conhecimento em projetos reais

@@ -10,7 +10,7 @@
 
 > "Onde estou e o que me move."
 
-* **Renda Atual:** R$ 4.157,00
+* **Renda Atual:** R$ 3.157,00
 * **Desafios:** A jornada de transição para a área que realmente me apaixona.
 * **Limitações do Mercado:** A barreira de entrada para quem está migrando de área, onde muitas empresas focam apenas em experiência prévia em vez de potencial e capacitação.
 

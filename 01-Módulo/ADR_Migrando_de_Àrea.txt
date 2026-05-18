@@ -1,0 +1,16 @@
+TÍTULO: 
+- Migrando de área em TI
+
+STATUS:
+- Em desenvolvimento
+
+CONTEXTO:
+- Como TI é uma área ampla em vário cenários dentro de empresas e fora delas, fazer uma migração de função ou atividades é praticamente selecionar 
+o seus conhecimentos anteriores no que é importantes e dar um reseter para mundo novo com novos desafios.
+
+DECISÃO:
+- O que é mais importante no processo, entender que já se faz necessário sem voltar a atraz na decisão.
+
+CONSEQUÊNCIAS:
+- Inserir essa nova modalidade no seu mundo real é um desafio muito grande, quando não se tem tempo livre para gerenciar (Ponto negativo).
+- Entender que esse novo cenário vai trazer um impacto grande na sua vida pessoal e proficional. (Ponto positivo). 

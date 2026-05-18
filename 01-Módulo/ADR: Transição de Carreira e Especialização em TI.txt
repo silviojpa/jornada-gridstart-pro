@@ -2,29 +2,23 @@ Titulo
 Transição de Carreira em TI
 
 Status
-Em desenvolvimento
+- Em desenvolvimento
 
 Contexto
-A área de Tecnologia da Informação é extremamente ampla, oferecendo diversas possibilidades de atuação. Realizar uma migração de função ou especialização exige o mapeamento e o reaproveitamento da bagagem técnica e interpessoal anterior, ao mesmo tempo em que demanda um "reset" mental para absorver novas tecnologias, arquiteturas e culturas de trabalho.
-
-A necessidade desta decisão surge do objetivo de alinhar o perfil profissional às demandas atuais de mercado, buscando maior realização e crescimento no longo prazo.
+- A área de Tecnologia da Informação é extremamente ampla, oferecendo diversas possibilidades de atuação. Realizar uma migração de função ou especialização exige o mapeamento e o reaproveitamento da bagagem técnica e interpessoal anterior, ao mesmo tempo em que demanda um "reset" mental para absorver novas tecnologias, arquiteturas e culturas de trabalho. A necessidade desta decisão surge do objetivo de alinhar o perfil profissional às demandas atuais de mercado, buscando maior realização e crescimento no longo prazo.
 
 Decisão
-Consolida-se o compromisso com a transição de carreira, estabelecendo um ponto de não retorno. O foco principal do processo será:
-
+- Consolidar o compromisso com a transição de carreira, estabelecendo um ponto de não retorno. O foco principal do processo será:
 Mapeamento de Competências: Identificar conhecimentos prévios que sirvam de base para o novo papel.
-
 Consistência: Priorizar a resiliência no aprendizado contínuo, blindando o cronograma de estudos contra distrações ou desvios de foco.
 
 Consequências
-Positivas (Benefícios)
-Evolução Profissional: Alinhamento com um cenário tecnológico mais dinâmico, abrindo portas para novos desafios e valorização de mercado.
-
-Renovação de Propósito: Impacto positivo na motivação pessoal e profissional ao dominar novas stacks e metodologias.
-
-Aproveitamento de Bagagem: Uso da experiência anterior como diferencial competitivo (maturidade profissional, resolução de problemas).
+- Positivas (Benefícios)
+1-Evolução Profissional: Alinhamento com um cenário tecnológico mais dinâmico, abrindo portas para novos desafios e valorização de mercado.
+2-Renovação de Propósito: Impacto positivo na motivação pessoal e profissional ao dominar novas stacks e metodologias.
+3-Aproveitamento de Bagagem: Uso da experiência anterior como diferencial competitivo (maturidade profissional, resolução de problemas).
 
 Negativas / Riscos (Mitigações Necessárias)
-Gestão de Tempo Restrita: A conciliação entre a rotina de trabalho atual, compromissos pessoais e a curva de aprendizado da nova área gerará uma sobrecarga inicial alta. Mitigação: Definir um cronograma de estudos realista, focando em qualidade e consistência diária, mesmo que em blocos menores de tempo.
-
-Impacto na Rotina: Mudança drástica na dinâmica diária e pessoal durante o período de imersão. Mitigação: Alinhamento de expectativas com a família e priorização do descanso para evitar burnout.
+1-Gestão de Tempo Restrita: A conciliação entre a rotina de trabalho atual, compromissos pessoais e a curva de aprendizado da nova área gerará uma sobrecarga inicial alta. 
+2-Mitigação: Definir um cronograma de estudos realista, focando em qualidade e consistência diária, mesmo que em tempos menores.
+3-Impacto na Rotina: Mudança drástica na dinâmica diária e pessoal durante o período de imersão. Mitigação: Alinhamento de expectativas com a família e priorização do descanso para evitar burnout.

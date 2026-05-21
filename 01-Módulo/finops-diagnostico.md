@@ -4,7 +4,7 @@
 Análise baseada nos princípios de governança financeira em nuvem e identificação de desperdícios:
 
 1. **Frota Fantasma:** Presença de recursos ativos que não entregam valor real ao negócio (como máquinas virtuais ligadas fora do horário comercial, discos órfãos desatrelados e IPs públicos reservados sem uso), fazendo o taxímetro da nuvem girar sem necessidade.
-2. **Dimensionamento Incorreto (Wrongsizing):** Recursos superdimensionados com base em estimativas iniciais superestimadas em vez de métricas de uso real (por exemplo, alocação excessiva de vCPU e RAM para cargas de trabalho baixas uso).
+2. **Dimensionamento Incorreto:** Recursos superdimensionados com base em estimativas iniciais superestimadas em vez de métricas de uso real (por exemplo, alocação excessiva de vCPU e RAM para cargas de trabalho baixas uso).
 3. **Alerta Reativo:** Falha na progressão de alertas de gastos. Notificações configuradas apenas quando o teto do orçamento (Budget) é atingido (100%), eliminando qualquer tempo de reação ou previsão (*Forecast*) para conter anomalias.
 4. **Falta de Travão de Emergência (Hard Limit):** Dependência exclusiva de limites imaginários de orçamento (Budget) sem a implementação de travas nas APIs, por região ou tipo de recurso para conter loops infinitos ou provisionamentos acidentais.
 

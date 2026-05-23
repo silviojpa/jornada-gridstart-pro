@@ -1,0 +1,5 @@
+# Atividade prática: - O mapa de colisões
+---
+
+## Cenário de análise e release:
+Para estruturar o mapa de colisões da janela crítica do dia 05, o primeiro passo é realizar um alinhamento com o time de contas para mapear a volume exato e a quantidade de usuários que utilizam a plataforma simultaneamente no horário de pico. Em seguida, como segundo passo, deve analisar junto ao time de pagamentos a regra de negócio atual, verificando se existe alguma etapa de checagem ou validação na conta que possa ser antecipada antes de processar a transferência programada. Por fim, unindo a informação do pico de acessos com o volume de transferências bancárias concentradas no dia 05, o terceiro passo seria configurar o Auto Scaling de forma prévia para iniciar duas horas antes do horário crítico. Essa ação irá escalar a plataforma tanto horizontalmente, adicionando novas instâncias, quanto verticalmente, ajustando a capacidade de CPU e memória, garantindo recursos suficientes para suportar todos os usuários realizando transferências simultâneas com total segurança e sem nenhuma indisponibilidade no sistema.

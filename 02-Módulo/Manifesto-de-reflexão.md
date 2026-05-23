@@ -1,14 +1,15 @@
-## Projeto: (Multi-view de receptores HDs)
+## Projeto: Multi-view de Receptores HD
+
 ---
 
-* **Requisitos:** Levantamento da quantidade de bastidores, caixas decoder e etc...
-* **Impacto** -> Gastou tempo para lavantar toda necessidade daquele momento, que depois foram crescendo a demanda de canais e precisou de mais espaço e materias.
+* **Requisitos:** Levantamento da quantidade de bastidores, caixas decoder, etc.
+* **Impacto** -> Demandou muito tempo para levantar toda a necessidade daquele momento. Posteriormente, a demanda de canais cresceu, exigindo mais espaço e materiais.
 ---
-* **Prazo:** O prazo até foi longo para dar o start do projeto, mas entrou no meio a porogracia no capex e mão de obra para comaçar.
-* **Impacto** -> Perdemos quase maeia vida do prazo para dár o start e quando começou, todas tinha que revezar para fazer um pouco da sua maneira e o que foi entendo de acordo a solicitação da gerencia, ou seja, trabalho sem capricho e qualidade.
+* **Prazo:** O prazo inicial foi longo para dar o start do projeto, mas no meio do caminho surgiu a burocracia com o Capex e com a contratação de mão de obra para começar.
+* **Impacto** -> Perdemos quase metade do prazo para dar o start. Quando o trabalho começou, todos tinham que se revezar para fazer um pouco à sua maneira e conforme o que foi entendido da solicitação da gerência. Ou seja, um trabalho sem o devido capricho e qualidade.
 ---
-* **Valor gasto** Eu acredito que foi um valor alto, acima da média, porque o equipamento era americano, então foi gasto em dólar.
-* **Impacto** -> O valor mal utilizado e precisou gastar em um curto tempo de 5 meses para implementar mais dois slot expanssivo para alocar mais canais.
+* **Valor Gasto:** Acredito que foi um valor alto, acima da média, porque os equipamentos eram americanos, logo, o gasto foi em dólar.
+* **Impacto** -> O valor foi mal utilizado e, em um curto espaço de 5 meses, foi necessário gastar mais para implementar dois slots expansíveis para alocar novos canais.
 ---
-* **Uso** Conseguimos entregar o projeto em cima da hora, porque seria usado também para as olimpiadas e copa do mundo.
-* **Impacto** -> Durou um pouco mais de 1 ano e logo foi caindo em desuso até não usar mais com nenhuma relevancia e gastando energia retorno.  
+* **Uso:** Conseguimos entregar o projeto em cima da hora, pois ele também seria usado para as Olimpíadas e para a Copa do Mundo.
+* **Impacto** -> Durou pouco mais de 1 ano e logo caiu em desuso, até perder totalmente a relevância, gerando apenas gasto de energia sem retorno.

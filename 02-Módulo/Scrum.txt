@@ -1,0 +1,20 @@
+O Caso: Projeto SIREN (Surrey Police)
+Em meados dos anos 2000, a polícia decidiu substituir seus sistemas legados de custódia, inteligência e registros criminais. 
+Eles contrataram fornecedores e decidiram adotar o Scrum/Agile como metodologia, acreditando que as entregas iterativas resolveriam o problema.
+
+O resultado foi um caos: os sprints aconteciam, os times remotos e locais se reuniam, os cartões se moviam no quadro, 
+mas nenhum incremento de software funcional era aceito ou homologado pelos stakeholders reais (os policiais e a liderança de segurança pública). 
+O projeto estourou o prazo em 3 vezes, o orçamento em 5 vezes, e acabou descartado no lixo.
+
+A Resposta: O Scrum falhou — ou a cultura falhou?
+A cultura falhou miseravelmente. O Scrum, por si só, é apenas um framework estrutural e nu, uma ferramenta de diagnóstico. Ele expõe as disfunções da empresa, 
+mas não tem o poder de curá-las se a cultura corporativa decidir ignorar os alertas.
+
+No caso do projeto SIREN e em tantas outras grandes empresas, o que faliu foi a cultura organizacional, motivada pelos seguintes fatores:
+
+Conclusão
+Como diz o co-criador do Scrum, Jeff Sutherland, ao analisar falhas parecidas: "O Scrum é como o painel do seu carro. Se a luz do óleo acende e você continua dirigindo até o motor fundir, 
+a culpa não é da luz do painel."
+
+O Scrum não falhou; ele funcionou perfeitamente ao mostrar, semana após semana, que o projeto estava desalinhado e que o software não estava servindo ao cliente. 
+A cultura falhou porque a governança e a liderança preferiram manter os velhos hábitos burocráticos e de desconfiança, mascarados com uma "roupagem nova" e pós-its coloridos na parede.

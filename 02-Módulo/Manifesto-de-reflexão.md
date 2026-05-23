@@ -13,3 +13,9 @@
 ---
 * **Uso:** Conseguimos entregar o projeto em cima da hora, pois ele também seria usado para as Olimpíadas e para a Copa do Mundo.
 * **Impacto** -> Durou pouco mais de 1 ano e logo caiu em desuso, até perder totalmente a relevância, gerando apenas gasto de energia sem retorno.
+
+* **O que poderia ter mudado com a metodologia Agile**
+  - Teriamos um controle de todo ambiente.
+  - Designado pessoas para fazer em etapas.
+  - Valores sob demandas e necessidades.
+  - Aproveitamento a longo prazo para caixas IPs que usamos atualmente.

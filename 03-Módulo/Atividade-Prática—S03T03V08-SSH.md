@@ -1,8 +1,8 @@
-# Exemplo com provilégio 777 no arquivo .pemm
+# Exemplo com provilégio 777 no arquivo .pem
 <img width="1031" height="230" alt="Exemplo chmod 777  pem" src="https://github.com/user-attachments/assets/daa41bd3-e26c-4e0e-8fa1-91a85cd62f5d" />
 
 ---
-# Exemplo com provilégio 600 no arquivo .pemm
+# Exemplo com provilégio 600 no arquivo .pem
 <img width="1041" height="514" alt="Exemplo chmod 600  pem" src="https://github.com/user-attachments/assets/4628e9cd-16b7-46c9-b8f2-b74a624080c0" />
 
 ---

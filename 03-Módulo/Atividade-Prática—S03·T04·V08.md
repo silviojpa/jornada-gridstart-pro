@@ -8,6 +8,7 @@
 Parte 2 — Consultando registros DNS reais
 - nslookup -type=MX gmail.com
 <img width="735" height="347" alt="gmail com" src="https://github.com/user-attachments/assets/a252bba1-d9b3-412d-9646-0a58a6fbc9ed" />
+
 - nslookup -type=TXT google.com
 <img width="1242" height="519" alt="tyoeTXT google com" src="https://github.com/user-attachments/assets/30adbf7a-c541-450d-8b0a-dc0092d30cd7" />
 ---

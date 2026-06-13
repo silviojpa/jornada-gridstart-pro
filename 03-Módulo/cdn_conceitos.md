@@ -19,11 +19,11 @@ crescendo e chegando usuários da Europa e Sudeste Asiático. Os usuários europ
 aplicação está lenta.
 * **Resposta** -> 
 
-Qual é a causa raiz do problema?
+* Qual é a causa raiz do problema?
 * **Resposta** -> 
-Como uma CDN ajudaria?
+* Como uma CDN ajudaria?
 * **Resposta** -> 
-O que a CDN não resolve nesse cenário? (pense no que não pode ser cacheado)
+* O que a CDN não resolve nesse cenário? (pense no que não pode ser cacheado)
 * **Resposta** -> 
 
 6. Um desenvolvedor diz: "CDN é só pra grandes empresas. Meu sistema tem 500 usuários, não preciso

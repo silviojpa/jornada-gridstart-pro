@@ -24,7 +24,23 @@
 <img width="1485" height="367" alt="image" src="https://github.com/user-attachments/assets/99221986-3f8d-45cc-8e24-cd0a1d0b664e" />
 
 # Parte 3 — Comparando servidores DNS
+Os IPs são os mesmos? São do mesmo bloco de endereços (/24)? O que isso diz sobre como o Google
+distribui seu tráfego?
+* **Resposta** -> Não, os IPs não são os mesmos. Cada consulta retornou um endereço IP diferente na ANSWER SECTION:
+- O primeiro comando retornou: 172.217.172.14
+- O segundo comando (via DNS 8.8.8.8) retornou: 142.251.132.238
+- O terceiro comando (via DNS 1.1.1.1) retornou: 142.250.219.46
+* **Resposta** -> Não, eles não pertencem ao mesmo bloco /24, os três primeiros octetos teriam que ser exatamente iguais.
+* **Resposta** -> Isso demonstra que o Google utiliza uma estratégia de balanceamento de carga global baseada em DNS.
 
 # Parte 4 — dig +trace
-
+- Não consegui retorno no trace conforme o print abaixo.
+<img width="705" height="180" alt="image" src="https://github.com/user-attachments/assets/a56bf014-c292-452d-ba42-65ace08970d2" />
+- Usando a IA, cheguei no comando dig +trace @1.1.1.1 google.com e me trouxe
+1. Quantos servidores intermediários a consulta passou antes de chegar na resposta final?
+* **Resposta** -> A consulta passou por 2 blocos de servidores intermediários (as etapas Root e TLD) antes de bater no servidor final que tinha a resposta.
+2. Quais foram os tipos de servidores (root, TLD, authoritative)?
+* **Resposta** -> 1º Tipo: Root Servers (Servidores Raiz) / 2º Tipo: TLD Servers (Top-Level Domain / 3º Tipo: Authoritative Name Servers (Servidores Autoritativos)
+3. Em qual ponto a resposta final foi retornada?
+* **Resposta** -> A resposta final (o registro do tipo A que aponta para o IP do site) foi retornada na última linha do rastreamento, vinda diretamente do servidor autoritativo do Google.
 # Parte 5 — Interpretando erros

@@ -44,6 +44,7 @@ distribui seu tráfego?
 * **Resposta** -> 1º Tipo: Root Servers (Servidores Raiz) / 2º Tipo: TLD Servers (Top-Level Domain / 3º Tipo: Authoritative Name Servers (Servidores Autoritativos)
 3. Em qual ponto a resposta final foi retornada?
 <img width="718" height="52" alt="image" src="https://github.com/user-attachments/assets/497bbdbb-a239-4478-a817-d8af133b88be" />
+
 * **Resposta** -> A resposta final (o registro do tipo A que aponta para o IP do site) foi retornada na última linha do rastreamento, vinda diretamente do servidor do Google.
 
 # Parte 5 — Interpretando erros

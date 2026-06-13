@@ -4,7 +4,7 @@
 * **Resposta** -> 
 2. Explique a diferença entre origin server e edge server. Qual o papel de cada um no fluxo de uma
 requisição com CDN?
-
+* **Resposta** -> 
 3. O que é um PoP (Point of Presence)? Por que CDNs têm centenas de PoPs enquanto as regiões cloud
 são dezenas?
 * **Resposta** -> 

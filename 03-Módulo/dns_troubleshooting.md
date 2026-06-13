@@ -42,5 +42,9 @@ distribui seu tráfego?
 2. Quais foram os tipos de servidores (root, TLD, authoritative)?
 * **Resposta** -> 1º Tipo: Root Servers (Servidores Raiz) / 2º Tipo: TLD Servers (Top-Level Domain / 3º Tipo: Authoritative Name Servers (Servidores Autoritativos)
 3. Em qual ponto a resposta final foi retornada?
-* **Resposta** -> A resposta final (o registro do tipo A que aponta para o IP do site) foi retornada na última linha do rastreamento, vinda diretamente do servidor autoritativo do Google.
+<img width="718" height="52" alt="image" src="https://github.com/user-attachments/assets/497bbdbb-a239-4478-a817-d8af133b88be" />
+* **Resposta** -> A resposta final (o registro do tipo A que aponta para o IP do site) foi retornada na última linha do rastreamento, vinda diretamente do servidor do Google.
+
 # Parte 5 — Interpretando erros
+- Qual o status da resposta? O que significa NXDOMAIN? Como você diferencia NXDOMAIN de SERVFAIL?
+* **Resposta** -> NXDOMAIN, é uma abreviação para Non-Existent Domain (Domínio Não Existente). Diferencia NXDOMAIN de SERVFAIL é domínio não existente e Falha no servidor.

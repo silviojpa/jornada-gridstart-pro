@@ -36,6 +36,7 @@ distribui seu tráfego?
 # Parte 4 — dig +trace
 - Não consegui retorno no trace conforme o print abaixo.
 <img width="705" height="180" alt="image" src="https://github.com/user-attachments/assets/a56bf014-c292-452d-ba42-65ace08970d2" />
+
 - Usando a IA, cheguei no comando dig +trace @1.1.1.1 google.com e me trouxe
 1. Quantos servidores intermediários a consulta passou antes de chegar na resposta final?
 * **Resposta** -> A consulta passou por 2 blocos de servidores intermediários (as etapas Root e TLD) antes de bater no servidor final que tinha a resposta.

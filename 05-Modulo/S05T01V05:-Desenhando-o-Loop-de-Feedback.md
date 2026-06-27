@@ -18,6 +18,7 @@
 ## Parte 1 - Marcar o ponto do sinal de feedback
 
 [cite_start]Desenhe (no papel, num editor de imagem, ou em texto estruturado tipo diagrama ASCII) as três etapas do fluxo `commit` ➔ `git push` ➔ `scripts/deploy.sh` e marque visualmente em qual ponto a Operação deveria mandar um sinal de volta para o Dev[cite: 96, 97, 98].
+
 ````
 > [cite_start][Descreva ou anexe seu diagrama aqui] [cite: 99]
 +------------+            +------------+            +---------------------+
@@ -28,6 +29,7 @@
       +================= [ SINAL DE FEEDBACK ] ================+
                    (Alerta automático/Loop de retorno)
 ````
+
 [cite_start]Justifique em 1-2 frases por que esse é o ponto certo (ou os pontos certos, se você marcar mais de um)[cite: 100].
 
 > [cite_start][Sua justificativa aqui] [cite: 101]

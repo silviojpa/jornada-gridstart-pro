@@ -20,11 +20,18 @@
 [cite_start]Desenhe (no papel, num editor de imagem, ou em texto estruturado tipo diagrama ASCII) as três etapas do fluxo `commit` ➔ `git push` ➔ `scripts/deploy.sh` e marque visualmente em qual ponto a Operação deveria mandar um sinal de volta para o Dev[cite: 96, 97, 98].
 
 > [cite_start][Descreva ou anexe seu diagrama aqui] [cite: 99]
++------------+            +------------+            +---------------------+
+| 1. Commit  | ---------> | 2. git push| ---------> | 3. scripts/deploy.sh| (Ops)
++------------+            +------------+            +---------------------+
+      ^                                                        |
+      |                                                        |
+      +================= [ SINAL DE FEEDBACK ] ================+
+                   (Alerta automático/Loop de retorno)
 
 [cite_start]Justifique em 1-2 frases por que esse é o ponto certo (ou os pontos certos, se você marcar mais de um)[cite: 100].
 
 > [cite_start][Sua justificativa aqui] [cite: 101]
-
+> O sinal de feedback deve partir imediatamente após a execução do scripts/deploy.sh (ou durante a falha do mesmo) de volta para o estágio inicial de desenvolvimento (Commit). Isso garante que qualquer erro de infraestrutura, ambiente ou deploy seja detetado e comunicado ao Dev em segundos, permitindo uma correção rápida antes que o problema se propague ou permaneça silencioso na Operação.
 ---
 
 ## Parte 2 - O conteúdo mínimo do sinal
@@ -32,6 +39,7 @@
 [cite_start]Um alerta vazio ("algo deu errado") não ajuda ninguém a agir rápido[cite: 103]. [cite_start]Com base no que o `feedback_amplifier.sh` registra (timestamp, status, mensagem), escreva em 3-5 frases o que um sinal de feedback precisa carregar, no mínimo, para ser útil sem virar um relatório longo que ninguém lê[cite: 104].
 
 > [cite_start][Sua resposta aqui] [cite: 105]
+> Na minha opnição o script deve trazer de forma concisa os pontoa onde realmente está causando esse alerta ou o ponto inicial que traz o efeito cascata do problema.
 
 ---
 
@@ -54,6 +62,7 @@
 [cite_start]Identifique uma verificação que hoje só é feita tarde no seu fluxo (ou nem é feita) e que poderia ser movida para mais perto do commit[cite: 114]. [cite_start]Diga o que ela verifica e por que faz sentido movê-la[cite: 115].
 
 > [cite_start][Sua resposta aqui] [cite: 116]
+> A verificação com testes na nova funcionalidade no tamplate main so front e relatar antes do push e resolver na medida do possivel e depois devolver para p fluxo até o deploy da nova versão.
 
 ---
 
@@ -64,6 +73,7 @@
 [cite_start]Pensando no seu próprio fluxo: hoje, se o `deploy.sh` falhasse silenciosamente, quanto tempo (estimando) levaria até alguém perceber - e o que mudaria se esse tempo caísse para segundos[cite: 120]?
 
 > [cite_start][Sua resposta aqui] [cite: 121]
+> O tempo seria de pelo menos 2 dias,até o user final relatar o problema dedpois de tentativas sem sucesso, com isso sendo reslovido antes ou atpe segundo na prod, seria imperceptivel ao final user ou um carregar de page already fixed.  
 
 ---
 

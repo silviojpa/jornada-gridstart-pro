@@ -38,20 +38,20 @@ A Achei.app já está em produção com os cinco microsserviços divididos em V0
 
 | Tarefa | Repetitiva | Bem definida | Erro custoso | Pontuação | Classificação |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **A** | 1 | 1 | 1 | **3** | Automatizar agora[cite: 14] |
-| **B** | 1 | 1 | 1 | **3** | Automatizar agora[cite: 14] |
-| **D** | 1 | 0 | 1 | **2** | Automatizar com cautela[cite: 14] |
-| **C** | 0 | 0 | 1 | **1** | Não automatizar ainda[cite: 14] |
+| **A** | 1 | 1 | 1 | **3** | Automatizar agora |
+| **B** | 1 | 1 | 1 | **3** | Automatizar agora |
+| **D** | 1 | 0 | 1 | **2** | Automatizar com cautela |
+| **C** | 0 | 0 | 1 | **1** | Não automatizar ainda |
 
 ### 2. Por que não automatizar a tarefa C agora?
-Mesmo sendo uma tarefa importante (o erro pode ser custoso pro usuário), explique por que automatizar a investigação da tarefa C agora seria um erro, usando os critérios do vídeo[cite: 14].
+Mesmo sendo uma tarefa importante (o erro pode ser custoso pro usuário), explique por que automatizar a investigação da tarefa C agora seria um erro, usando os critérios do vídeo.
 
-> **Resposta fictícia:** Automatizar a tarefa C seria um erro grave porque ela falha nos critérios fundamentais de ser repetitiva e bem definida[cite: 14]. Como o bug é intermitente, raro e sem padrão claro, não existe um processo lógico estruturado ou documentado para uma automação seguir[cite: 14]. Tentar escrever um script para algo que os próprios humanos ainda não conseguem reproduzir ou compreender transformaria a automação numa ferramenta inútil ou geradora de falsos positivos, reforçando que este é um problema de investigação analítica (observabilidade, análise de logs), e não de automação[cite: 14].
+> **Resposta fictícia:** Automatizar a tarefa C seria um erro grave porque ela falha nos critérios fundamentais de ser repetitiva e bem definida. Como o bug é intermitente, raro e sem padrão claro, não existe um processo lógico estruturado ou documentado para uma automação seguir. Tentar escrever um script para algo que os próprios humanos ainda não conseguem reproduzir ou compreender transformaria a automação numa ferramenta inútil ou geradora de falsos positivos, reforçando que este é um problema de investigação analítica (observabilidade, análise de logs), e não de automação.
 
 ### 3. O que falta pra automatizar a tarefa D com segurança?
-A tarefa D não está pronta pra automação total ainda, mas também não é como a tarefa C. O que especificamente precisa ser definido antes do time poder automatizar essa decisão de escala[cite: 14]?
+A tarefa D não está pronta pra automação total ainda, mas também não é como a tarefa C. O que especificamente precisa ser definido antes do time poder automatizar essa decisão de escala?
 
-> **Resposta fictícia:** Para que a tarefa D possa ser automatizada com total segurança, falta estabelecer uma definição clara e sem ambiguidades dos critérios de gatilho para a escala (o limiar exato)[cite: 14]. O time precisa transformar a intuição humana em dados objetivos definindo qual métrica monitorar (ex: uso de CPU acima de 80% ou latência de requisições acima de 200ms) por quanto tempo esse pico deve se manter estável para acionar o gatilho, e exatamente quantas instâncias extras devem ser adicionadas por bloco[cite: 14]. Uma vez que essa calibração de regras e limites estiver documentada, a tarefa passa de "automatizar com cautela" (2/3) para uma automação segura (3/3)[cite: 14].
+> **Resposta fictícia:** Para que a tarefa D possa ser automatizada com total segurança, falta estabelecer uma definição clara e sem ambiguidades dos critérios de gatilho para a escala (o limiar exato). O time precisa transformar a intuição humana em dados objetivos definindo qual métrica monitorar (ex: uso de CPU acima de 80% ou latência de requisições acima de 200ms) por quanto tempo esse pico deve se manter estável para acionar o gatilho, e exatamente quantas instâncias extras devem ser adicionadas por bloco. Uma vez que essa calibração de regras e limites estiver documentada, a tarefa passa de "automatizar com cautela" (2/3) para uma automação segura (3/3).
 
 ---
 

@@ -82,3 +82,72 @@ mgc virtual-machine instances create \
 
 # 6. Validação do Status
 mgc virtual-machine instances get --id <INSTANCE_ID>
+````
+----------
+
+## 4. ATIVIDADE PRÁTICA — S06T04V07: Conectando e blindando suas próprias VMs via SSH
+```Bash
+# 1. Ajuste de Permissões das Chaves Privadas (Local)
+chmod 400 gridstart-key.pem
+chmod 400 ~/.ssh/gridstart-mgc-key
+
+# 2. Acesso e Atualização da VM AWS
+ssh -i gridstart-key.pem ubuntu@<IP_PUBLICO_AWS>
+sudo apt update && sudo apt upgrade -y
+exit
+
+# 3. Acesso e Atualização da VM MagaluCloud
+ssh -i ~/.ssh/gridstart-mgc-key ubuntu@<IP_PUBLICO_MGC>
+sudo apt update && sudo apt upgrade -y
+exit
+````
+<img width="775" height="407" alt="image" src="https://github.com/user-attachments/assets/fe388e69-0b77-431a-816a-56757645ad5a" />
+
+## 5. ATIVIDADE PRÁTICA — S06T04V09: Do disco cru ao disco persistente
+
+* Etapa AWS (EBS Volume)
+````Bash
+# 1. Identificar o disco cru anexado (ex: /dev/xvdf)
+lsblk
+
+# 2. Formatar o volume com sistema de arquivos ext4
+sudo mkfs.ext4 /dev/xvdf
+
+# 3. Criar ponto de montagem e montar
+sudo mkdir -p /mnt/data
+sudo mount /dev/xvdf /mnt/data
+df -h
+
+# 4. Obter o UUID do disco para persistência segura
+sudo blkid /dev/xvdf
+
+# 5. Adicionar entrada no /etc/fstab usando o UUID
+# Adicionar no final do arquivo /etc/fstab:
+# UUID=<SEU_UUID_AWS>  /mnt/data  ext4  defaults,nofail  0  2
+
+# 6. Testar persistência antes de reiniciar
+sudo umount /mnt/data
+sudo mount -a
+df -h
+````
+* Etapa MagaluCloud (Block Storage)
+````Bash
+# 1. Criar e Anexar o Volume via MGC CLI
+mgc block-storage volumes create --name "gridstart-vol01" --size 10 --type-name "cloud_nvme1k"
+mgc block-storage volumes attach --id <VOLUME_ID> --virtual-machine-id <VM_ID>
+
+# 2. Na VM MGC: Identificar, Formatar e Montar (ex: /dev/vdb)
+lsblk
+sudo mkfs.ext4 /dev/vdb
+sudo mkdir -p /mnt/data
+sudo mount /dev/vdb /mnt/data
+
+# 3. Persistência via UUID
+sudo blkid /dev/vdb
+# Editar /etc/fstab:
+# UUID=<SEU_UUID_MGC>  /mnt/data  ext4  defaults,nofail  0  2
+
+# 4. Validar montagem sem erros
+sudo umount /mnt/data
+sudo mount -a
+````

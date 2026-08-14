@@ -49,3 +49,31 @@ aws s3api put-bucket-policy \
   --policy file://policy.json
 ````
 * URL Pública de Acesso Direct: https://gridstart-silvioluiz-s3.s3.amazonaws.com/relatorio.pdf
+
+## 4. Upload de Arquivo Privado e Geração de Presigned URL
+
+````bash
+# Upload do arquivo estritamente privado
+aws s3 cp contrato-privado.pdf s3://gridstart-silvioluiz-s3/contrato-privado.pdf
+
+# Geração de Presigned URL válida por 3600 segundos (1 hora)
+aws s3 presign s3://gridstart-silvioluiz-s3/contrato-privado.pdf --expires-in 3600
+````
+
+### Parte 2 — MagaluCloud (Object Storage)
+
+````bash
+# 1. Criar o Bucket no Object Storage MGC
+mgc object-storage buckets create --name "gridstart-silvioluiz-mgc"
+
+# 2. Upload do arquivo
+mgc object-storage objects upload \
+  --bucket "gridstart-silvioluiz-mgc" \
+  --file "relatorio.pdf" \
+  --dst "relatorio.pdf"
+
+# 3. Liberar ACL pública no Bucket e no Objeto
+mgc object-storage buckets acl set --bucket "gridstart-silvioluiz-mgc" --public-read
+mgc object-storage objects acl set --bucket "gridstart-silvioluiz-mgc" --object "relatorio.pdf" --public-read
+````
+* URL Pública MGC: https://br-se1.magaluobjects.com/gridstart-silvioluiz-mgc/relatorio.pdf

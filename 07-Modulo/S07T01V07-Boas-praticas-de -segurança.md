@@ -67,5 +67,8 @@ CMD ["./servidor"]
 * Pergunta 10: Explique por que rodar o contêiner como root é perigoso, usando o conceito de escape de contêiner.
 - Rodar um contêiner como root significa que o processo dentro do isolamento possui UID 0. Caso um atacante explore uma vulnerabilidade na aplicação e consiga realizar um container escape (quebra de isolamento do namespace ou cgroup), ele chegará ao sistema operacional hospedeiro (host) diretamente com privilégios de superusuário (root), podendo comprometer todo o servidor, acessar dados de outros contêineres e alterar configurações da infraestrutura.
 
+<img width="1391" height="183" alt="image" src="https://github.com/user-attachments/assets/0f758b43-15b1-4e89-99fd-eb00dd6ef001" />
+
+
 * Pergunta 11: Explique por que limpar o cache num RUN separado do apt-get install não reduz o tamanho da imagem, usando o conceito de camada imutável.
 - Como o Docker funciona com um sistema de arquivos em camadas imutáveis (read-only), cada instrução RUN gera uma nova camada que é gravada permanentemente na imagem final. Se a limpeza do cache (rm -rf /var/lib/apt/lists/*) for executada em um comando RUN separado, o cache baixado no apt-get update continuará salvo na camada anterior. O comando posterior apenas esconderá os arquivos no ponteiro da imagem, mas o tamanho em disco da camada antiga não será reduzido.

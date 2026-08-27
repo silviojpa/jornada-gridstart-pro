@@ -44,8 +44,8 @@ docker.io/silvio69luiz/demo-multistage:1.0.0
 ## Perguntas de Reflexão
 * Pergunta 1: Explique por que autenticar com um access token é mais seguro do que usar a senha principal da conta (cite pelo menos duas vantagens).
 * Utilizar um Personal Access Token (PAT) é significativamente mais seguro por aplicar o princípio do menor privilégio. As duas principais vantagens são:
-- Revogação Granular: Caso o token vazando em uma esteira de CI/CD ou máquina local seja comprometido, é possível revogá-lo instantaneamente no Docker Hub sem precisar alterar a senha principal da conta nem afetar outros sistemas.
-- Escopo Limitado de Permissão: É possível criar tokens com permissões restritas (ex apenas write/push ou apenas read/pull), impedindo que um acesso indevido altere configurações da conta, faturamento ou exclua repositórios.
+  - Revogação Granular: Caso o token vazando em uma esteira de CI/CD ou máquina local seja comprometido, é possível revogá-lo instantaneamente no Docker Hub sem precisar alterar a senha principal da conta nem afetar outros sistemas.
+  - Escopo Limitado de Permissão: É possível criar tokens com permissões restritas (ex apenas write/push ou apenas read/pull), impedindo que um acesso indevido altere configurações da conta, faturamento ou exclua repositórios.
 
 * Pergunta 2 Explique por que depender da tag :latest em produção é arriscado usando a ideia de que latest é um apelido móvel.
-- A tag :latest não garante imutabilidade; ela é apenas um ponteiro (apelido móvel) que aponta para a última imagem enviada sem tag de versão explícita. Em ambientes de produção, utilizar :latest impede a rastreabilidade da versão real em execução.
+  - A tag :latest não garante imutabilidade; ela é apenas um ponteiro (apelido móvel) que aponta para a última imagem enviada sem tag de versão explícita. Em ambientes de produção, utilizar :latest impede a rastreabilidade da versão real em execução.

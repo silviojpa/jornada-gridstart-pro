@@ -4,7 +4,7 @@ Relatório de criação de repositório privado no Amazon ECR, autenticação vi
 
 ---
 
-## 📌 1. Informações do Repositório Privado
+##  1. Informações do Repositório Privado
 
 * **ID da Conta AWS:** `592667671603`
 * **Região AWS:** `us-east-1`
@@ -13,7 +13,7 @@ Relatório de criação de repositório privado no Amazon ECR, autenticação vi
 
 ---
 
-## 🔑 2. Autenticação e Push no Amazon ECR
+##  2. Autenticação e Push no Amazon ECR
 
 ### **Autenticação no Registry:**
 ```bash

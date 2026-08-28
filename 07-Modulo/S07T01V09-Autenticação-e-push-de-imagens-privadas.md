@@ -48,17 +48,17 @@ de67e695e713: Pushed
 
 <img width="1908" height="526" alt="image" src="https://github.com/user-attachments/assets/7e0705e0-011f-477e-a0fb-e7f08a188b59" />
 
-3. Prova de Presença no ECR (aws ecr list-images)
+## 3. Prova de Presença no ECR (aws ecr list-images)
 Saída esperada do comando de verificação via AWS CLI para validar a tag 1.0 no repositório remoto:
 
 <img width="1461" height="301" alt="image" src="https://github.com/user-attachments/assets/9f53504d-cf18-49e7-92b6-f94089e396e1" />
 
-4. Encerramento e Limpeza
+## 4. Encerramento e Limpeza
 Comando executado ao final da atividade para deletar o repositório privado no ECR e evitar custos indesejados:
 
 <img width="1472" height="267" alt="image" src="https://github.com/user-attachments/assets/d8940b7a-63e5-4699-a062-0437437cd318" />
 
-5. Perguntas de Reflexão:
+## 5. Perguntas de Reflexão:
 * Pergunta 1: Explique por que o ECR usa um token temporário via IAM em vez de um usuário e senha fixos como o Docker Hub e qual a vantagem de segurança disso.
   - O ECR utiliza tokens temporários (com validade de 12 horas) gerados via IAM para eliminar o uso de credenciais estáticas de longo prazo armazenadas em disco. A principal vantagem de segurança é a diminuição drástica do impacto em caso de vazamento de credenciais em pipelines ou máquinas de desenvolvimento, já que o token expira automaticamente e todas as ações ficam estritamente limitadas às políticas e auditorias (via CloudTrail) da identidade IAM.
 * Pergunta 2: Explique por que a imagem precisa ser taggeada com a URI completa do repositório antes do push (o que o docker push faz com essa tag).

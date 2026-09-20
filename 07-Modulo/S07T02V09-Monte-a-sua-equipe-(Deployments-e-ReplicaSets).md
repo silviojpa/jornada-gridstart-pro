@@ -101,7 +101,7 @@ deployment "equipe-gridstart" successfully rolled out
 ````
 
 - Parte 5 - Respostas Teóricas (respostas.md)
-. Leitura do Rollout Quebrado e Estratégia de AtualizaçãoDurante o deploy com a imagem :v3 quebrada, 2 Pods permaneceram em Running (na versão anterior) e apenas 1 Pod ficou em ImagePullBackOff. Isso ocorre por conta dos parâmetros padrões da estratégia Rolling Update no Kubernetes:
+1. Leitura do Rollout Quebrado e Estratégia de AtualizaçãoDurante o deploy com a imagem :v3 quebrada, 2 Pods permaneceram em Running (na versão anterior) e apenas 1 Pod ficou em ImagePullBackOff. Isso ocorre por conta dos parâmetros padrões da estratégia Rolling Update no Kubernetes:
      - maxSurge: 25%: Define que o Kubernetes pode criar no máximo $25\%$ a mais de Pods do total desejado durante a atualização. Para 3 réplicas, $25\%$ arredonda para cima ($1$ novo Pod).
      - maxUnavailable: 25%: Define a quantidade máxima de Pods que podem ficar indisponíveis. Para 3 réplicas, $25\%$ arredonda para baixo ($0$ Pods indisponíveis).
      - Conta realizada: Com $3$ Pods desejados, o K8s sobe $1$ Pod novo com a nova tag ($3 + 1 = 4$ Pods no total) sem derrubar nenhum antigo. Como o novo Pod falhou em fazer o pull da imagem, o processo estagnou e a aplicação continuou rodando com os 2 Pods velhos intactos sem causar indisponibilidade.

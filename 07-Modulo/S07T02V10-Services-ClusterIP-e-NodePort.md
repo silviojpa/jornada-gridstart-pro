@@ -98,7 +98,6 @@ exit
 - Para os itens 5 e 6 das provas (Navegador), abra no seu navegador local http://localhost:30080 (GridStart) e http://localhost:30081 (Equipe Rival).
 
 ## Documento RESPOSTAS.md (Partes 2 e 3)
-- Você pode salvar o conteúdo abaixo diretamente no seu arquivo
 ````
 # Respostas da Atividade Prática - S07T02V10
 
